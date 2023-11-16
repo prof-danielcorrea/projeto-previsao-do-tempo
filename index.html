@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <title>Previsão do Tempo</title>
+
+</head>
+<body>
+
+<div id="weather-container">
+  <div id="search-container">
+    <input type="text" id="city-input" placeholder="Digite o nome da cidade">
+    <button onclick="buscarPrevisao()"><i class="fas fa-search"></i></button>
+  </div>
+
+  <div id="condition-container">
+    <h2 id="city-name"></h2>
+    <p id="temperature"></p>
+    <p id="weather-description"></p>
+  </div>
+
+  <div id="weather-info">
+    <div>
+      <h3>Condições do Tempo</h3>
+      <p id="humidity"></p>
+      <p id="wind-speed"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
